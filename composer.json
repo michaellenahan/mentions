@@ -1,0 +1,14 @@
+{
+  "name": "drupal/mentions",
+  "type": "drupal-module",
+  "description": "Adds Twitter like @username linking and tracking features.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/mentions",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/mentions",
+    "source": "http://cgit.drupalcode.org/mentions"
+  },
+  "require": { }
+}

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains mentions.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function mentions_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the mentions module.
+    case 'help.page.mentions':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Adds Twitter like @username linking and tracking features.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

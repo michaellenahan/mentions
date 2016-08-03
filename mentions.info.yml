@@ -1,0 +1,5 @@
+name: mentions
+type: module
+description: Adds Twitter like @username linking and tracking features.
+core: 8.x
+package: Filters
